@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <!--=============================== Tier 1 ===================================-->
+  <ResearchProjectDef>
+    <defName>ExplosiveDeadManSwitch</defName>
+    <label>Explosive Dead Mans Switch</label>
+    <description>Discovering the magic of miniaturisation, you can now fit bombs inside of people. You think to yourself, if people are about to die, why not go out with a bang?</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>DFM</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1.5</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>FurtherDeadManSwitch</defName>
+    <label>Further Dead Mans switches</label>
+    <description>If people can explode, why can't they do other things? Like explode firefoam? or just fire? Maybe an EMP?</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ExplosiveDeadManSwitch</li>
+    </prerequisites>
+    <tab>DFM</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1.5</researchViewY>
+  </ResearchProjectDef>
+</Defs>

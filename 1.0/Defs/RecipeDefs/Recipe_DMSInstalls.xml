@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Abstract="True" Name="DFM_SurgeryBasic">
+    <effectWorking>Surgery</effectWorking>
+    <soundWorking>Recipe_Surgery</soundWorking>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <workSkill>Medicine</workSkill>
+    <workSkillLearnFactor>16</workSkillLearnFactor>
+    <!--<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>-->
+  </RecipeDef>
+  <RecipeDef Name="DFM_Surgery" ParentName="DFM_SurgeryBasic" Abstract="True">
+    <surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+  </RecipeDef>
+  <RecipeDef ParentName="DFM_Surgery">
+    <defName>InstallHighExplosiveDMS</defName>
+    <label>install high explosive dead mans switch</label>
+    <description>Installs a high explosive implant that explodes upon the pawns death.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing dead mans switch.</jobString>
+    <workAmount>350</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HighExplosiveDeadManSwitch_Item</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>HighExplosiveDeadManSwitch_Item</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ribcage</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>HighExplosiveDeadManSwitch_Hediff</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="DFM_Surgery">
+    <defName>InstallIncendiaryDMS</defName>
+    <label>install incendiary dead mans switch</label>
+    <description>Installs an incendiary implant that explodes upon the pawns death.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing dead mans switch.</jobString>
+    <workAmount>350</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>IncendiaryDeadManSwitch_Item</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>IncendiaryDeadManSwitch_Item</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ribcage</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>IncendiaryDeadManSwitch_Hediff</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="DFM_Surgery">
+    <defName>InstallEMPDMS</defName>
+    <label>install EMP dead mans switch</label>
+    <description>Installs an EMP that explodes upon the pawns death.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing dead mans switch.</jobString>
+    <workAmount>350</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPDeadManSwitch_Item</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EMPDeadManSwitch_Item</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ribcage</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMPDeadManSwitch_Hediff</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="DFM_Surgery">
+    <defName>InstallFirefoamDMS</defName>
+    <label>install Firefoam dead mans switch</label>
+    <description>Installs a Firefoam bomb that explodes upon the pawns death. Human Firefoam poppers.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing dead mans switch.</jobString>
+    <workAmount>350</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FirefoamDeadManSwitch_Item</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>FirefoamDeadManSwitch_Item</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ribcage</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>FirefoamDeadManSwitch_Hediff</addsHediff>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/MainButtonDef[defName="Achievements"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementTabDef>
+              <defName>Mlie_Continued</defName>
+              <label>Continued Mods</label>
+            </AchievementsExpanded.AchievementTabDef>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <success>Always</success>
+          <xpath>/Defs/AchievementsExpanded.AchievementDef[@Name="Mlie_AchievementParent"]</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs</xpath>
+            <value>
+              <AchievementsExpanded.AchievementDef Name="Mlie_AchievementParent" Abstract="true">
+                <bgtexPath>Achievements/AchievmentsBG</bgtexPath>
+                <tab>Mlie_Continued</tab>
+              </AchievementsExpanded.AchievementDef>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+              <defName>DFM_DontDieInACrowd</defName>
+              <label>Dont die in a crowd</label>
+              <description>Have one pawn fitted with a High explosive dead mans switch</description>
+              <tracker Class="AchievementsExpanded.HediffTracker">
+                <def>HighExplosiveDeadManSwitch_Hediff</def>
+                <count>1</count>
+              </tracker>
+              <texPath>Achievements/DFM_DontDieInACrowd</texPath>
+              <points>10</points>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+              <defName>DFM_DontDieNearFuel</defName>
+              <label>Dont die near fuel</label>
+              <description>Have one pawn fitted with an Incendiary dead mans switch</description>
+              <tracker Class="AchievementsExpanded.HediffTracker">
+                <def>IncendiaryDeadManSwitch_Hediff</def>
+                <count>1</count>
+              </tracker>
+              <texPath>Achievements/DFM_DontDieNearFuel</texPath>
+              <points>10</points>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+              <defName>DFM_DontDieOnAPlane</defName>
+              <label>Dont die on a plane</label>
+              <description>Have one pawn fitted with an EMP dead mans switch</description>
+              <tracker Class="AchievementsExpanded.HediffTracker">
+                <def>EMPDeadManSwitch_Hediff</def>
+                <count>1</count>
+              </tracker>
+              <texPath>Achievements/DFM_DontDieOnAPlane</texPath>
+              <points>10</points>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+              <defName>DFM_IfYouHaveToDieDieNearAFire</defName>
+              <label>If you have to die, die near a fire</label>
+              <description>Have one pawn fitted with a Firefoam dead mans switch</description>
+              <tracker Class="AchievementsExpanded.HediffTracker">
+                <def>FirefoamDeadManSwitch_Hediff</def>
+                <count>1</count>
+              </tracker>
+              <texPath>Achievements/DFM_IfYouHaveToDieDieNearAFire</texPath>
+              <points>10</points>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+              <defName>DFM_DontDiePlease</defName>
+              <label>Dont die (please)</label>
+              <description>Have one pawn fitted with an Antigrain dead mans switch</description>
+              <tracker Class="AchievementsExpanded.HediffTracker">
+                <def>AntigrainDeadManSwitch_Hediff</def>
+                <count>1</count>
+              </tracker>
+              <texPath>Achievements/DFM_DontDiePlease</texPath>
+              <points>25</points>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

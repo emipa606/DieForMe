@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef Name="DeadManSwitch_Item" ParentName="BodyPartBase" Abstract="True">
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <tickerType>Normal</tickerType>
+    <stackLimit>5</stackLimit>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <tradeTags>
+      <li>DeadManSwitch</li>
+    </tradeTags>
+    <thingCategories>
+      <li>DeadManSwitch</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef Name="MakeableExplosiveDeadManSwitch_Item" ParentName="DeadManSwitch_Item" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>800</workAmount>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>ExplosiveDeadManSwitch</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef Name="MakeableFurtherDeadManSwitch_Item" ParentName="DeadManSwitch_Item" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>800</workAmount>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>FurtherDeadManSwitch</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <!-- Added body parts -->
+  <ThingDef ParentName="MakeableExplosiveDeadManSwitch_Item">
+    <defName>HighExplosiveDeadManSwitch_Item</defName>
+    <label>High explosive dead mans switch</label>
+    <description>Install this in a pawn. When that pawn dies, big boom boom go boom.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Steel>5</Steel>
+      <Shell_HighExplosive>2</Shell_HighExplosive>
+    </costList>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>6</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="MakeableFurtherDeadManSwitch_Item">
+    <defName>IncendiaryDeadManSwitch_Item</defName>
+    <label>Incendiary dead mans switch</label>
+    <description>Install this in a pawn. When that pawn dies, explodes like a molotov cocktail.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Steel>5</Steel>
+      <Shell_Incendiary>2</Shell_Incendiary>
+    </costList>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <Mass>6</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="MakeableFurtherDeadManSwitch_Item">
+    <defName>EMPDeadManSwitch_Item</defName>
+    <label>EMP dead mans switch</label>
+    <description>Install this in a pawn. When that pawn dies, all electronics nearby will be shut down. Useful for disabling turrets.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Steel>5</Steel>
+      <Shell_EMP>2</Shell_EMP>
+    </costList>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <Mass>6</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="MakeableFurtherDeadManSwitch_Item">
+    <defName>FirefoamDeadManSwitch_Item</defName>
+    <label>Firefoam dead mans switch</label>
+    <description>Install this in a pawn. When that pawn dies, firefoam will burst from their body, smothering any nearby fires.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Steel>5</Steel>
+      <Shell_Firefoam>2</Shell_Firefoam>
+    </costList>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <Mass>6</Mass>
+    </statBases>
+  </ThingDef>
+</Defs>

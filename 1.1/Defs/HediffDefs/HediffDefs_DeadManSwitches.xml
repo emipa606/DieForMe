@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <HediffDef Name="addedPartPropsBase" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+  </HediffDef>
+  <!-- Natural body parts -->
+  <HediffDef ParentName="addedPartPropsBase">
+    <defName>HighExplosiveDeadManSwitch_Hediff</defName>
+    <label>High explosive dead mans switch</label>
+    <description>High explosive dead mans switch</description>
+    <spawnThingOnRemoved>HighExplosiveDeadManSwitch_Item</spawnThingOnRemoved>
+    <hediffClass>DieForMe.Hediff_HighExplosiveDeadManSwitch</hediffClass>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="addedPartPropsBase">
+    <defName>IncendiaryDeadManSwitch_Hediff</defName>
+    <label>Incendiary dead mans switch</label>
+    <description>Incendiary dead mans switch</description>
+    <spawnThingOnRemoved>IncendiaryDeadManSwitch_Item</spawnThingOnRemoved>
+    <hediffClass>DieForMe.Hediff_IncendiaryDeadManSwitch</hediffClass>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="addedPartPropsBase">
+    <defName>EMPDeadManSwitch_Hediff</defName>
+    <label>EMP dead mans switch</label>
+    <description>EMP dead mans switch</description>
+    <spawnThingOnRemoved>EMPDeadManSwitch_Item</spawnThingOnRemoved>
+    <hediffClass>DieForMe.Hediff_EMPDeadManSwitch</hediffClass>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="addedPartPropsBase">
+    <defName>FirefoamDeadManSwitch_Hediff</defName>
+    <label>Firefoam dead mans switch</label>
+    <description>Firefoam dead mans switch</description>
+    <spawnThingOnRemoved>FirefoamDeadManSwitch_Item</spawnThingOnRemoved>
+    <hediffClass>DieForMe.Hediff_FirefoamDeadManSwitch</hediffClass>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="addedPartPropsBase">
+    <defName>AntigrainDeadManSwitch_Hediff</defName>
+    <label>Antigrain dead mans switch</label>
+    <description>Antigrain dead mans switch</description>
+    <spawnThingOnRemoved>AntigrainDeadManSwitch_Item</spawnThingOnRemoved>
+    <hediffClass>DieForMe.Hediff_AntigrainDeadManSwitch</hediffClass>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+</Defs>
