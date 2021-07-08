@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--Prostheses-->
+  <ThingCategoryDef>
+    <defName>DeadManSwitch</defName>
+    <label>Deads man switch</label>
+    <parent>BodyPartsBionic</parent>
+  </ThingCategoryDef>
+</Defs>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Die for me (Continued)</name>
   <packageId>Mlie.DieForMe</packageId>
@@ -8,6 +8,7 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
@@ -33,7 +34,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1723038088
 [img]https://i.imgur.com/NOW7jU1.png[/img]
 Die For Me! Die for your king! Die for the rim!
 
-Adds the Dead Mans Switch (DMS). This item requires research to create, and can be created at the machining table from mortar shells. When installed in a pawn, the pawn becomes a walking, talking, bomb. When the pawn dies, the bomb is set off. Useful for melee pawns that'll go boom if they're taken out (or unruly prisoners that will serve as a message to other escapees), but beware of infections or bleeding as any death will set off the bomb inside!
+Adds the Dead Mans Switch (DMS). This item requires research to create, and can be created at the machining table from mortar shells. When installed in a pawn, the pawn becomes a walking, talking, bomb. When the pawn dies, the bomb is set off. Useful for melee pawns that&apos;ll go boom if they&apos;re taken out (or unruly prisoners that will serve as a message to other escapees), but beware of infections or bleeding as any death will set off the bomb inside!
 
 Currently implemented DMS:
 - High Explosive
@@ -42,7 +43,7 @@ Currently implemented DMS:
 - Firefoam DMS
 
 Future implementations:
-- Antigrain Warhead DMS. That one's gonna hurt
+- Antigrain Warhead DMS. That one&apos;s gonna hurt
 
 - Kill switches. Installed in the brain, these can be set off at any time. Brilliant for controlling escaping prisoners, but expensive and requires plenty of research to discover.
 
@@ -55,7 +56,7 @@ Let me know in the comments if you love it or hate it, or if you encounter any i
 
 Update Log:
 
-V0.8 - Implemented Further DMS's, These are Incendiary, EMP, and Firefoam explosives. Also swapped around some XML stuff so it loads faster.
+V0.8 - Implemented Further DMS&apos;s, These are Incendiary, EMP, and Firefoam explosives. Also swapped around some XML stuff so it loads faster.
 
 V0.5 - Implemented High explosive DMS
 
@@ -70,4 +71,3 @@ V0.5 - Implemented High explosive DMS
 [/list]
 </description>
 </ModMetaData>
-
