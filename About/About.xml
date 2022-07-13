@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Die for me (Continued)</name>
   <packageId>Mlie.DieForMe</packageId>
@@ -12,7 +12,7 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Huddicles mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1723038088
 
@@ -20,21 +20,25 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1723038088
 - Removed the research tab
 - Added Achievements
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/DieForMe][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
 [/table]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657][img]https://i.imgur.com/kNldlMg.png[/img][/url]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 Die For Me! Die for your king! Die for the rim!
 
-Adds the Dead Mans Switch (DMS). This item requires research to create, and can be created at the machining table from mortar shells. When installed in a pawn, the pawn becomes a walking, talking, bomb. When the pawn dies, the bomb is set off. Useful for melee pawns that&apos;ll go boom if they&apos;re taken out (or unruly prisoners that will serve as a message to other escapees), but beware of infections or bleeding as any death will set off the bomb inside!
+Adds the Dead Mans Switch (DMS). This item requires research to create, and can be created at the machining table from mortar shells. When installed in a pawn, the pawn becomes a walking, talking, bomb. When the pawn dies, the bomb is set off. Useful for melee pawns that'll go boom if they're taken out (or unruly prisoners that will serve as a message to other escapees), but beware of infections or bleeding as any death will set off the bomb inside!
 
 Currently implemented DMS:
 - High Explosive
@@ -43,7 +47,7 @@ Currently implemented DMS:
 - Firefoam DMS
 
 Future implementations:
-- Antigrain Warhead DMS. That one&apos;s gonna hurt
+- Antigrain Warhead DMS. That one's gonna hurt
 
 - Kill switches. Installed in the brain, these can be set off at any time. Brilliant for controlling escaping prisoners, but expensive and requires plenty of research to discover.
 
@@ -56,11 +60,11 @@ Let me know in the comments if you love it or hate it, or if you encounter any i
 
 Update Log:
 
-V0.8 - Implemented Further DMS&apos;s, These are Incendiary, EMP, and Firefoam explosives. Also swapped around some XML stuff so it loads faster.
+V0.8 - Implemented Further DMS's, These are Incendiary, EMP, and Firefoam explosives. Also swapped around some XML stuff so it loads faster.
 
 V0.5 - Implemented High explosive DMS
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
