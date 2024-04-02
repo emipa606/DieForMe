@@ -4,9 +4,9 @@ namespace DieForMe;
 
 public class Hediff_AntigrainDeadManSwitch : HediffWithComps
 {
-    public override void Notify_PawnDied()
+    public override void Notify_PawnDied(DamageInfo? dinfo, Hediff culprit = null)
     {
-        base.Notify_PawnDied();
+        base.Notify_PawnDied(dinfo, culprit);
         var damageDef = DefDatabase<DamageDef>.GetNamedSilentFail("BombSuper");
         if (damageDef != null)
         {
