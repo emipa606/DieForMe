@@ -11,7 +11,8 @@ public class Hediff_AntigrainDeadManSwitch : HediffWithComps
         if (damageDef != null)
         {
             GenExplosion.DoExplosion(pawn.Corpse.Position, pawn.Corpse.Map, 14.9f, damageDef,
-                pawn.Corpse.InnerPawn, -1, 1f, null, null, null, null, null, 0f, 1, null, true, null, 0f, 1, 0.22f,
+                pawn.Corpse.InnerPawn, -1, 1f, null, null, null, null, null, 0f, 1, null, null, 0, true, null, 0f, 1,
+                0.22f,
                 true);
         }
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Antigrain dead mans switch -->
+  <AntigrainDeadManSwitch_Item.label>Antigrain dead mans switch</AntigrainDeadManSwitch_Item.label>
+  <!-- EN: Install this in a pawn. When that pawn dies, anyone else within a large radius also dies. -->
+  <AntigrainDeadManSwitch_Item.description>Install this in a pawn. When that pawn dies, anyone else within a large radius also dies.</AntigrainDeadManSwitch_Item.description>
+  <!-- EN: EMP dead mans switch -->
+  <EMPDeadManSwitch_Item.label>EMP dead mans switch</EMPDeadManSwitch_Item.label>
+  <!-- EN: Install this in a pawn. When that pawn dies, all electronics nearby will be shut down. Useful for disabling turrets. -->
+  <EMPDeadManSwitch_Item.description>Install this in a pawn. When that pawn dies, all electronics nearby will be shut down. Useful for disabling turrets.</EMPDeadManSwitch_Item.description>
+  <!-- EN: Firefoam dead mans switch -->
+  <FirefoamDeadManSwitch_Item.label>Firefoam dead mans switch</FirefoamDeadManSwitch_Item.label>
+  <!-- EN: Install this in a pawn. When that pawn dies, firefoam will burst from their body, smothering any nearby fires. -->
+  <FirefoamDeadManSwitch_Item.description>Install this in a pawn. When that pawn dies, firefoam will burst from their body, smothering any nearby fires.</FirefoamDeadManSwitch_Item.description>
+  <!-- EN: High explosive dead mans switch -->
+  <HighExplosiveDeadManSwitch_Item.label>High explosive dead mans switch</HighExplosiveDeadManSwitch_Item.label>
+  <!-- EN: Install this in a pawn. When that pawn dies, big boom boom go boom. -->
+  <HighExplosiveDeadManSwitch_Item.description>Install this in a pawn. When that pawn dies, big boom boom go boom.</HighExplosiveDeadManSwitch_Item.description>
+  <!-- EN: Incendiary dead mans switch -->
+  <IncendiaryDeadManSwitch_Item.label>Incendiary dead mans switch</IncendiaryDeadManSwitch_Item.label>
+  <!-- EN: Install this in a pawn. When that pawn dies, explodes like a molotov cocktail. -->
+  <IncendiaryDeadManSwitch_Item.description>Install this in a pawn. When that pawn dies, explodes like a molotov cocktail.</IncendiaryDeadManSwitch_Item.description>
+</LanguageData>

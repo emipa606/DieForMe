@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Antigrain Dead Mans switches -->
+  <AntigrainDeadManSwitch.label>Antigrain Dead Mans switches</AntigrainDeadManSwitch.label>
+  <!-- EN: If im going down Im taking you all with me -->
+  <AntigrainDeadManSwitch.description>If im going down Im taking you all with me</AntigrainDeadManSwitch.description>
+  <!-- EN: Explosive Dead Mans Switch -->
+  <ExplosiveDeadManSwitch.label>Explosive Dead Mans Switch</ExplosiveDeadManSwitch.label>
+  <!-- EN: Discovering the magic of miniaturisation, you can now fit bombs inside of people. You think to yourself, if people are about to die, why not go out with a bang? -->
+  <ExplosiveDeadManSwitch.description>Discovering the magic of miniaturisation, you can now fit bombs inside of people. You think to yourself, if people are about to die, why not go out with a bang?</ExplosiveDeadManSwitch.description>
+  <!-- EN: Further Dead Mans switches -->
+  <FurtherDeadManSwitch.label>Further Dead Mans switches</FurtherDeadManSwitch.label>
+  <!-- EN: If people can explode, why can't they do other things? Like explode firefoam? or just fire? Maybe an EMP? -->
+  <FurtherDeadManSwitch.description>If people can explode, why can't they do other things? Like explode firefoam? or just fire? Maybe an EMP?</FurtherDeadManSwitch.description>
+</LanguageData>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: install antigrain dead mans switch -->
+  <InstallAntigrainDMS.label>install antigrain dead mans switch</InstallAntigrainDMS.label>
+  <!-- EN: Installs a antigrain implant that explodes upon the pawns death. -->
+  <InstallAntigrainDMS.description>Installs a antigrain implant that explodes upon the pawns death.</InstallAntigrainDMS.description>
+  <!-- EN: Installing dead mans switch. -->
+  <InstallAntigrainDMS.jobString>Installing dead mans switch.</InstallAntigrainDMS.jobString>
+  <!-- EN: install EMP dead mans switch -->
+  <InstallEMPDMS.label>install EMP dead mans switch</InstallEMPDMS.label>
+  <!-- EN: Installs an EMP that explodes upon the pawns death. -->
+  <InstallEMPDMS.description>Installs an EMP that explodes upon the pawns death.</InstallEMPDMS.description>
+  <!-- EN: Installing dead mans switch. -->
+  <InstallEMPDMS.jobString>Installing dead mans switch.</InstallEMPDMS.jobString>
+  <!-- EN: install Firefoam dead mans switch -->
+  <InstallFirefoamDMS.label>install Firefoam dead mans switch</InstallFirefoamDMS.label>
+  <!-- EN: Installs a Firefoam bomb that explodes upon the pawns death. Human Firefoam poppers. -->
+  <InstallFirefoamDMS.description>Installs a Firefoam bomb that explodes upon the pawns death. Human Firefoam poppers.</InstallFirefoamDMS.description>
+  <!-- EN: Installing dead mans switch. -->
+  <InstallFirefoamDMS.jobString>Installing dead mans switch.</InstallFirefoamDMS.jobString>
+  <!-- EN: install high explosive dead mans switch -->
+  <InstallHighExplosiveDMS.label>install high explosive dead mans switch</InstallHighExplosiveDMS.label>
+  <!-- EN: Installs a high explosive implant that explodes upon the pawns death. -->
+  <InstallHighExplosiveDMS.description>Installs a high explosive implant that explodes upon the pawns death.</InstallHighExplosiveDMS.description>
+  <!-- EN: Installing dead mans switch. -->
+  <InstallHighExplosiveDMS.jobString>Installing dead mans switch.</InstallHighExplosiveDMS.jobString>
+  <!-- EN: install incendiary dead mans switch -->
+  <InstallIncendiaryDMS.label>install incendiary dead mans switch</InstallIncendiaryDMS.label>
+  <!-- EN: Installs an incendiary implant that explodes upon the pawns death. -->
+  <InstallIncendiaryDMS.description>Installs an incendiary implant that explodes upon the pawns death.</InstallIncendiaryDMS.description>
+  <!-- EN: Installing dead mans switch. -->
+  <InstallIncendiaryDMS.jobString>Installing dead mans switch.</InstallIncendiaryDMS.jobString>
+</LanguageData>

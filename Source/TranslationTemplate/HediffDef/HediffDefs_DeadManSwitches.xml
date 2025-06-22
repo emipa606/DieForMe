@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Antigrain dead mans switch -->
+  <AntigrainDeadManSwitch_Hediff.label>Antigrain dead mans switch</AntigrainDeadManSwitch_Hediff.label>
+  <!-- EN: Antigrain dead mans switch -->
+  <AntigrainDeadManSwitch_Hediff.description>Antigrain dead mans switch</AntigrainDeadManSwitch_Hediff.description>
+  <!-- EN: EMP dead mans switch -->
+  <EMPDeadManSwitch_Hediff.label>EMP dead mans switch</EMPDeadManSwitch_Hediff.label>
+  <!-- EN: EMP dead mans switch -->
+  <EMPDeadManSwitch_Hediff.description>EMP dead mans switch</EMPDeadManSwitch_Hediff.description>
+  <!-- EN: Firefoam dead mans switch -->
+  <FirefoamDeadManSwitch_Hediff.label>Firefoam dead mans switch</FirefoamDeadManSwitch_Hediff.label>
+  <!-- EN: Firefoam dead mans switch -->
+  <FirefoamDeadManSwitch_Hediff.description>Firefoam dead mans switch</FirefoamDeadManSwitch_Hediff.description>
+  <!-- EN: High explosive dead mans switch -->
+  <HighExplosiveDeadManSwitch_Hediff.label>High explosive dead mans switch</HighExplosiveDeadManSwitch_Hediff.label>
+  <!-- EN: High explosive dead mans switch -->
+  <HighExplosiveDeadManSwitch_Hediff.description>High explosive dead mans switch</HighExplosiveDeadManSwitch_Hediff.description>
+  <!-- EN: Incendiary dead mans switch -->
+  <IncendiaryDeadManSwitch_Hediff.label>Incendiary dead mans switch</IncendiaryDeadManSwitch_Hediff.label>
+  <!-- EN: Incendiary dead mans switch -->
+  <IncendiaryDeadManSwitch_Hediff.description>Incendiary dead mans switch</IncendiaryDeadManSwitch_Hediff.description>
+</LanguageData>
